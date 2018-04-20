@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="pl" xml:lang="pl">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jeśli nie divy, to co? &#8211;  Lukem.net</title>
+<meta name="description" content="Sprawa, o której zamierzam napisać zapewne nie należy do najnowszych, jednak dopiero teraz zebrałem się, żeby o niej napisać. Doświadczeni górale doskonale pamiętają, że jeszcze kilka lat temu designy oparte na tabelach były normalną praktyką większości webmasterów. Wejście języka XHTML przyniosło modę, a z czasem konieczność przestawienia się na tworzenie stron beztabelkowych, tj. opartych na [...]" />
+<meta name="keywords" content="łukasz wójcik, blog, strona domowa, homepage, lukem, internet, technologia, telekomunikacja, komiks, webkomiks, zygfryd" />
+<link rel="stylesheet" type="text/css" href="../../../../wp-content/themes/lm/style.css" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/wp-content/themes/lm/ie6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/wp-content/themes/lm/ie7.css" /><![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Wpisy" href="../../../../feed/" />
+<link rel="alternate" type="application/rss+xml" title="Komentarze" href="../../../../comments/feed/" />
+<link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon" />
+</head><body id="sp">
+<div id="ml"><div id="hdr">
+<h1><a href="../../../../"><span>Łukasz "Lukem" Wójcik</span></a></h1>
+<div id="menu">
+<ul><li><a href="http://lukaszwojcik.net/">O mnie <span>prywatnie i wirtualnie</span></a></li>
+<li><a href="../../../../portfolio/" >Portfolio <span>kuźnia projektów</span></a></li>
+<li><a href="http://lukaszwojcik.net/">Kontakt <span>przywitaj się</span></a></li>
+<li><a href="../../../../kategorie/zygfryd/" >Zygfryd <span>coś jakby komiks</span></a></li></ul></div></div><div id="pg"><div id="cn">
+<div><p style="margin-left:0"><big><b>Lukem.net nie jest już aktualizowany. <a href="../../../../2009/08/07/koniec/">Przeczytaj ostatni wpis &raquo;</a></b></big></p></div>
+<h2><a href="" title="Link do wpisu: Jeśli nie divy, to co?">Jeśli nie divy, to co?</a></h2>
+<span class="cal">18.04.2008, 0:30</span> <span class="ctg"><a href="../../../../kategorie/internet/" title="Zobacz wszystkie wpisy z kategorii Internet" rel="category tag">Internet</a></span>
+<p>Sprawa, o której zamierzam napisać zapewne nie należy do najnowszych, jednak dopiero teraz zebrałem się, żeby o niej napisać. Doświadczeni górale doskonale pamiętają, że jeszcze kilka lat temu designy oparte na tabelach były normalną praktyką większości webmasterów. Wejście języka <acronym title="eXtensible HyperText Markup Language" lang="en">XHTML</acronym> przyniosło modę, a z czasem konieczność przestawienia się na tworzenie stron beztabelkowych, tj. opartych na zaniedbywanych jak dotychczas divach.</p>
+<p><span id="more-75"></span></p>
+<p id="more">Wydawałoby się, że do czasu upowszechnienia <acronym title="HyperText Markup Language" lang="en">HTML</acronym> 5 tak zostanie, jednak znaleźli sie zapaleńcy, którzy stwierdzili, że skoro mają już strony bez tabel, to teraz czas na strony&#8230; <a href="http://somerandomdude.net/srd-projects/divless/">bez divów</a>.</p>
+<p>Tak jak wtedy argumentowano, że tabelki służą do prezentacji danych tabelarycznych (masło maślane), tak w tym przypadku divy nie wnoszą nic do semantyki dokumentu, przez co nie są w stanie we właściwy oddać struktury strony. Alternatywą dla nich miałyby być listy numerowowane (bądź nie) oraz listy definicyjne, które po odpowiednim ostylowaniu zachowywałyby się w identyczny sposób jak divy.</p>
+<p>W praktyce jest to możliwe. Udowadnił to chociażby <a href="http://www.somerandomdude.net/">P.J. Onori</a>, tworząc dwie <a href="http://www.somerandomdude.net/projects/webdev/divless/layout_ul.php">przykładowe</a> <a href="http://www.somerandomdude.net/projects/webdev/divless/layout_dl.php">witryny</a>. Znacznie dalej posunął się Thierry Koblentz, który dodatkowo pozbawił <a href="http://www.tjkdesign.com/articles/css-layout/no_div_no_float_no_clear_no_hack_no_joke.asp">swój kod</a> elementów typu float, clear oraz hacków (choć nie obyło się bez <a href="http://leksykot.top.hell.pl/notatki/www/ie-hacks#warunkowe">komentarzy warunkowych</a> i <a href="http://perfectionorvanity.com/2007/01/12/podstawowe-informacje-o-expressions/">expressions</a>). Poprawność semantyczna takich zastosowań list została <a href="http://www.w3.org/QA/Tips/unordered-lists">pobłogosławiona przez W3C</a>. Pomimo to na chwilę obecną listy (nie)uporządkowane stosuje się rzadko do czegoś więcej niż proste wyszczególnienia kilku elementów, nie wspominając już o listach definicyjnych, które bardziej kojarzą się ze słownikowym układem haseł, niż elementów layoutu.</p>
+<p>Czy ta ciekawostka powinna kiedykolwiek zyskać na znaczeniu i zająć miejsce obok takich oczywistości jak umieszczanie elementów prezentacyjnych w arkuszach stylów? Z dwojga złego wolałbym zaczekać na <a href="http://blog.to-be.pl/2007/08/11/nowe-elementy-w-html-5/">gotowy draft <acronym title="HyperText Markup Language" lang="en">HTML</acronym> 5</a>, który powinien zrobić porządek z tymi nieszczęsnymi dziesiątkami divów i zażegnać semantyczne obejścia, które opisałem powyżej. Pozostaje tylko kwestia <a href="http://blog.lepszyinternet.com/2006/11/06/dlaczego-xhtml-to-zly-pomysl/">powinowactwa z <acronym title="Extensible Markup Language" lang="en">XML</acronym></a> i konsekwencji tegoż, ale to już temat na na bardziej bezsenną noc.</p>
+<p class="tag">Tagi: <a href="../../../../tag/internet/" rel="tag">Internet</a>, <a href="../../../../tag/standardy/" rel="tag">standardy</a>, <a href="../../../../tag/webdesign/" rel="tag">webdesign</a>, <a href="../../../../tag/xhtml/" rel="tag">xhtml</a></p><p id="sn"><strong>Dodaj ten wpis:</strong> <a href="http://www.wykop.pl/dodaj?url=http://lukem.net/2008/04/18/jesli-nie-divy-to-co/&amp;title=Lukem.net:%20Jeśli nie divy, to co?&amp;desc=Jeśli nie divy, to co?">Wykop</a> <a href="http://delicious.com/post?url=http://lukem.net/2008/04/18/jesli-nie-divy-to-co/&amp;title=Lukem.net:%20Jeśli nie divy, to co?&amp;desc=Jeśli nie divy, to co?">Delicious</a> <a href="http://blip.pl/dashboard?body=^lukemnet:%20Jeśli nie divy, to co?%20http://lukem.net/2008/04/18/jesli-nie-divy-to-co/">Blip</a> <a href="http://flaker.pl/add2flaker.php?title=Lukem.net:%20Jeśli nie divy, to co?&amp;url=http://lukem.net/2008/04/18/jesli-nie-divy-to-co/">Flaker</a> <a href="http://www.facebook.com/sharer.php?u=http://lukem.net/2008/04/18/jesli-nie-divy-to-co/&amp;t=Lukem.net:%20Jeśli nie divy, to co?">Facebook</a> <a href="http://twitter.com/home?status=@Lukemnet:%20Jeśli nie divy, to co?%20http://lukem.net/2008/04/18/jesli-nie-divy-to-co/">Twitter</a></p>
+<div id="see">
+<h3>Zobacz także</h3>
+<ul class="related_post"><li><a href="../../../../2009/04/09/dzien-bez-css/" title="Dzień bez CSS">Dzień bez CSS</a></li><li><a href="../../../03/23/nie-mialem-problemu/" title="Nie miałem problemu&#8230;">Nie miałem problemu&#8230;</a></li><li><a href="../../../../2009/07/19/polandwantsjb/" title="#PolandwantsJB">#PolandwantsJB</a></li><li><a href="../../../../2009/07/17/nowy-spinacz-pl/" title="Nowy Spinacz.pl">Nowy Spinacz.pl</a></li><li><a href="../../../../2009/07/08/spinacz-pl-reaktywacja/" title="Spinacz.pl reaktywacja">Spinacz.pl reaktywacja</a></li></ul></div>
+<h3 id="comments">Komentarze do wpisu</h3>
+<ul id="cml">
+<li id="comment-550" >
+<cite><a href='http://necro.nomicon.pl/' rel='external nofollow' class='url'>puppy</a><a href="#comment-550" title="" class="cmd">18.04.2008, 1:11</a></cite>
+<p>Wystarczy żeby wszystkie przeglądarki obsługiwały display: table-* w div a tworzenie layoutów to będzie przyjemność.<br />
+A jak się uprzeć to można zrobić stronę składającą się wyłącznie z elementów a, ew. dodając elementy formularzy :)</p>
+</li>
+<li id="comment-551" >
+<cite>qvist<a href="#comment-551" title="" class="cmd">18.04.2008, 4:03</a></cite>
+<p>jak design nie jest robiony przez niedoksztalconego web-grafika (a takich jest 98% w zawodzie) to mozna sobie caly lay trzaskac na dl i swietnie sie przy tym bawic&#8230; </p>
+<p>jednak w realnym swiecie takie podejscie nie ma szans na przetrwanie (mowie o pracy agencyjnej, a nie hobbistycznej). juz bez ograniczen w ilosci uzywanych divow czy spanow mozna nawnerwiac sie na grafikow, natrafiajac na irutujace komplikacje w designie, ktore ciezko przelozyc na dostepna i semantyczna strukture. </p>
+<p>no i pozagniezdzane dl czy ul nie wydaja mi sie lepsze od zagniezdzonych divow. pokusze sie nawet o stwierdzenie, ze bezsensowne zagniezdzanie tych pierwszych moze zaszkodzic (np. kuloodpornosci, dostepnosci, moze nawet SEO?).</p>
+<p>dlatego uznalbym takie praktyki bardziej jako koderski fetysz niz nowy trend na miare tableless layouts.</p>
+</li>
+<li id="comment-552" >
+<cite><a href='http://blog.mgorny.i-rpg.net/' rel='external nofollow' class='url'>Michał Górny</a><a href="#comment-552" title="" class="cmd">18.04.2008, 6:37</a></cite>
+<p>Ja już dawno mówiłem, że divy złe, to wyśmiewali. A teraz? Niby popierają, ale znowu se znaleźli nowe elementy do nadużywania. Dobry design to taki, który zawiera minimum elementów, zachowując przy tym maksimum semantyki.</p>
+</li>
+<li id="comment-553" >
+<cite><a href='http://sf.jogger.pl/' rel='external nofollow' class='url'>stormfly</a><a href="#comment-553" title="" class="cmd">18.04.2008, 7:28</a></cite>
+<p>To nie ma szans ;) Jeśli coś ma się zmienić to tak za 5 lat najwcześniej. Obecnie z samymi divami jest już problem pod różnymi przeglądarkami (np. zastosowanie width + padding jednocześnie), a co dopiero przy listach&#8230; gdzie pod IE np. trzeba wymuszać hasLayout bo inaczej wszystko się sypie ;)</p>
+<p>Ten przykład, który został pokazany ma się nijak do wyglądu normalnych stron.</p>
+<p>dla mnie listy są po to by używać ich do list&#8230; a nie by tworzyć układ kolumnowy, no sorry, ale dla mnie to już przegięcie ;)</p>
+</li>
+<li id="comment-554" >
+<cite><a href='http://blog.birdsong.pl/' rel='external nofollow' class='url'>bounty_hunter</a><a href="#comment-554" title="" class="cmd">18.04.2008, 8:54</a></cite>
+<p>Zgadzam się z opinią, że jeśli tabele są do tabel a divy do wydzielania jakichś sekcji dokumentu, to listy służą do tworzenia list. Period.</p>
+<p>Osobiście na razie pozostaję przy divach, ale ja tam się mogę deklarować, ja tylko hobbystą jestem.</p>
+<p>Posiedzą, pomyślą to może wymyślą coś nowego, bardziej semantycznego, w stylu &#60;leftside&#62;, &#60;rightside&#62; itd ;p</p>
+</li>
+<li id="comment-555" >
+<cite><a href='http://btm.jogger.pl/' rel='external nofollow' class='url'>BTM</a><a href="#comment-555" title="" class="cmd">18.04.2008, 9:10</a></cite>
+<p>Pomijając błędne przykłady w <span class="caps">CSS</span> na podanej przez Ciebie stronie, nie widzę sensu w rozumowaniu autora.<br />
+Najpierw pisze, że DIV&#8217;y nie mają znaczenia &#8222;layoutowego&#8221; dla starszych przeglądarek (a kogo to przepraszam obchodzi?) a potem pisze, że można używać do tego list definicji. No sorry, ale nie do tego zostały one stworzone.</p>
+<p>Na upartego można zrobić sobie stronę z samymi spanami i całą treść oraz prezentację zrobić w <span class="caps">CSS</span> w stylu:</p>
+<p>span span span span span span span span span span span span span span:before {<br />
+  content: &#8222;To jest mój tekst gdzieś w środku strony&#8221;<br />
+}</p>
+</li>
+<li id="comment-556" >
+<cite><a href='http://blog.birdsong.pl/' rel='external nofollow' class='url'>bounty_hunter</a><a href="#comment-556" title="" class="cmd">18.04.2008, 9:14</a></cite>
+<p>@BTM: Muszę przyznać, że chciałbym coś takiego zobaczyć. Popatrzeć, podumać, zastanowić się nad zdrowiem psychicznym autora, itd.<br />
+Na siłę wszystko można. Najrozsądniejszym podejściem, moim zdaniem, jest robienie wszystkiego tak, żeby &#8222;po prostu działało&#8221;, przez co rozumiem także zgodność ze standardami i czytelność tworu.</p>
+</li>
+<li id="comment-557" >
+<cite><a href='http://taeril.jogger.pl/' rel='external nofollow' class='url'>Taeril</a><a href="#comment-557" title="" class="cmd">18.04.2008, 12:13</a></cite>
+<p>&#8222;Wejście języka <span class="caps">XHTML</span> przyniosło modę, a z czasem konieczność przestawienia się na tworzenie stron beztabelkowych&#8221; &#8211; Nie ma przymusu ani w <span class="caps">HTML</span>, ani w <span class="caps">XHTML</span> do stosowania czy też niestosowania tabelek. <br />
+Tak naprawdę jeżeli się nie wykorzystuje możliwości XHTML-a ponad to, co oferuje <span class="caps">HTML</span>, to te języki się nie różnią poza tym, że <span class="caps">XHTML</span> sprawia problemy w niektórych przeglądarkach albo jest błędnie traktowany jak <span class="caps">HTML</span>.</p>
+<p>&#8222;Poprawność semantyczna takich zastosowań list została pobłogosławiona przez W3C.&#8221; &#8211; toż to nieprawda. Semantyka to znaczenie i ten automat nie powie czy np. dla &#60;X&#62;ala ma kota&#60;/X&#62; to &#60;X&#62; powinno być &#60;p&#62; bo to akapit, a może &#60;h2&#62; bo to nagłówek a może jest to &#60;li&#62; jako element listy? Jakie znaczenie ma &#8222;ala ma kota&#8221;?<br />
+z <a href="http://kurs.browsehappy.pl/Kurs/Walidatory" rel="nofollow">http://kurs.browsehappy.pl/Kurs/Walidatory</a> &#8211; &#8222;Automatycznie sprawdza większość reguł dotyczących poprawności składni i struktury <span class="caps">XHTML</span>. Nie sprawdza semantyki, stylów, ani skryptów.&#8221; </p>
+<p>Boom na <span class="caps">XHTML</span> przyniósł także modę na &#8222;strony na divach&#8221; ale ten termin dla niektórych określa semantyczny kod a inni traktując go literalnie wpadają w drugą skrajność.</p>
+</li>
+<li id="comment-558" >
+<cite>witek<a href="#comment-558" title="" class="cmd">18.04.2008, 12:17</a></cite>
+<p>&#8222;divy nie wnoszą nic do semantyki dokumentu&#8221; </p>
+<p>To div nie oznacza przypadkiem jakiejś części strony tworzącej logiczną całość? Owszem, nie jest to wiele, ale zawsze coś. </p>
+<p>&#8222;Zgadzam się z opinią, że jeśli tabele są do tabel a divy do wydzielania jakichś sekcji dokumentu, to listy służą do tworzenia list. Period.&#8221; </p>
+<p>Tu się w pełni zgadzam, tyle że zazwyczaj patrzy się na te elementy zbyt prezentacyjnie. Lista to nie koniecznie kilka wypunktowanych elementów, są też listy komentarzy, listy artykułów (np. na stronie głównej bloga).</p>
+<p>Szkoda, że w IE nie da się sensownie stylować tabelek. <span class="caps">IMO</span> to dobrze było by zamykać w nich wszystkie listy, których elementy składają się zawsze z tych samych elementów, teraz niestety wiąże się to z wyświetleniem tego jako tabelka. A mogło by to być bardzo wygodne choćby dla osób niewidomych, np. wyczytywanie wszystkich autorów komentarzy+wyczytanie wybranych w całości.</p>
+<p>List definicji <span class="caps">IMO</span> lepiej nie nadużywać.</p>
+<p>&#8222;Posiedzą, pomyślą to może wymyślą coś nowego, bardziej semantycznego, w stylu &#60;leftside&#62;, &#60;rightside&#62; itd ;p&#8221; </p>
+<p><span class="caps">IMO</span> to akurat były by elementy typowo prezentacyjne.</p>
+</li>
+<li id="comment-559" >
+<cite><a href='http://btm.jogger.pl/' rel='external nofollow' class='url'>BTM</a><a href="#comment-559" title="" class="cmd">18.04.2008, 12:19</a></cite>
+<p>A przypadkiem w specyfikacji <span class="caps">HTML</span> 5 nie ma właśnie &#60;sidebar /&#62; ?</p>
+</li>
+<li id="comment-560" >
+<cite>witek<a href="#comment-560" title="" class="cmd">18.04.2008, 12:33</a></cite>
+<p>@<span class="caps">BTM</span><br />
+A nie chodzi Ci o &#60;aside /&#62; [1], ew. jeszcze &#60;nav /&#62; [2]? One akurat określają co w nich jest, a nie że należy wyświetlić to z lewej części strony.</p>
+<p>Jest jeszcze &#60;link type=&#8222;sidebar&#8221; /&#62; [3]</p>
+<p>1. <a href="http://www.w3.org/html/wg/html5/#the-aside" rel="nofollow">http://www.w3.org/html/wg/html5/#the-aside</a><br />
+2. <a href="http://www.w3.org/html/wg/html5/#the-nav" rel="nofollow">http://www.w3.org/html/wg/html5/#the-nav</a><br />
+3. <a href="http://www.w3.org/html/wg/html5/#link-type15" rel="nofollow">http://www.w3.org/html/wg/html5/#link-type15</a></p>
+</li>
+<li id="comment-561" >
+<cite><a href='http://btm.jogger.pl/' rel='external nofollow' class='url'>btm</a><a href="#comment-561" title="" class="cmd">18.04.2008, 12:34</a></cite>
+<p>@Witek &#8211; tak, właśnie o to, wyleciało mi z pamięci ;-) Tymniemniej, aside / nav doskonale nadają się do kolumn a nawigacją.</p>
+</li>
+<li id="comment-562" >
+<cite>witek<a href="#comment-562" title="" class="cmd">18.04.2008, 12:51</a></cite>
+<p>@<span class="caps">BTM</span><br />
+Przy okazji dając dużo wygody dla przeglądającego. Wyobraź sobie jeden skrót klawiaturowy powodujący przeskoczenie do menu nawigacyjnego na każdej stronie, wyświetlenie listy klikanych tagów w jednym miejscy przeglądarki na każdej stronie na której istnieją, czy klik i na ekranie jest tylko artykuł, a reszta strony ukryta.<br />
+Przy okazji strony zaczną być przyjemniejsze dla niewidomych, botów, skrajnie małych wyświetlaczy, i wszystkiego co nie jest przeglądarką na monitorze.</p>
+</li>
+<li id="comment-563" >
+<cite><a href='http://blog.bobiko.pl/' rel='external nofollow' class='url'>bobiko</a><a href="#comment-563" title="" class="cmd">18.04.2008, 15:51</a></cite>
+<p>Jak dla mnie to znów niepotrzebne zamieszanie. Ledwo co weszlismy w standardy xhtml2.0 (przez co przeglądarki poprawnie działają w końcu), to juz pojawia się ktoś, kto ma własne widzimisie ;)</p>
+<p>Czyli html5 upodabnia się do xul w sensie kodu ? nonsens.</p>
+</li>
+<li id="comment-564" >
+<cite>Anonim<a href="#comment-564" title="" class="cmd">18.04.2008, 20:09</a></cite>
+<p>&#8222;Ledwo co weszlismy w standardy xhtml2.0 (przez co przeglądarki poprawnie działają w końcu)&#8221; </p>
+<p>Możesz rozwinąć, bo chyba coś mnie ominęło. Mogę już pisać &#60;h src=&#8222;xxx.png&#8221; href=&#8221;/&#8221;&#62;Tytuł&#60;/h&#62; i to będzie działać?</p>
+<p>&#8222;Czyli html5 upodabnia się do xul w sensie kodu ?&#8221; </p>
+<p>A co przez to rozumiesz, nie nam za bardzo <span class="caps">XUL</span>, ale podobieństwa nie widzę, nawet zastosowanie inne.</p>
+</li>
+<li id="comment-565" >
+<cite><a href='http://btm.jogger.pl/' rel='external nofollow' class='url'>btm</a><a href="#comment-565" title="" class="cmd">18.04.2008, 20:10</a></cite>
+<p>@Anonim: możesz, ale musisz użyć transformacji <span class="caps">XSLT</span> w celu wygenerowania poprawnego dokumentu XHTML</p>
+</li>
+<li id="comment-566" >
+<cite>witek<a href="#comment-566" title="" class="cmd">18.04.2008, 20:19</a></cite>
+<p>@btm<br />
+Tak to mogę sobie nawet w języku trelemeledudki pisać, byle był na XMLu oparty. Widzisz może w tym jakiś sens, czy sztuka dla sztuki?</p>
+</li>
+<li id="comment-567" >
+<cite>witek<a href="#comment-567" title="" class="cmd">18.04.2008, 20:36</a></cite>
+<p>Większość osób pewnie już się orientuje, ale dodam jeszcze, że w większości HTML5 działa już teraz chyba w każdej przeglądarce, wystarczy jedynie jakoś sensownie oscylować nowe elementy, a dla IE dodatkowo utworzyć skryptem niepodczepione nigdzie nowe (w HTML5) elementy, jeśli chcemy je stylować. Brakuje chyba tylko obsługi &#60;audio /&#62; i &#60;video /&#62; (co jest kwestią niedługiego czasu, choć tak swoją drogą, to nieszczęście, że coś takiego powstało), a reszta to udoskonalanie obsługi tego co już i tak jest użyteczne.</p>
+</li>
+<li id="comment-568" >
+<cite>witek<a href="#comment-568" title="" class="cmd">19.04.2008, 0:57</a></cite>
+<p>&#8222;Semantyka to znaczenie i ten automat nie powie czy np. dla &#60;X&#62;ala ma kota&#60;/X&#62; to &#60;X&#62; powinno być &#60;p&#62; bo to akapit, a może &#60;h2&#62; bo to nagłówek a może jest to &#60;li&#62; jako element listy? Jakie znaczenie ma „ala ma kota”?&#8221; </p>
+<p>Semantyczna ma być struktura, a nie treść strony. Automat ma wiedzieć, czym jest zdanie &#8222;Ala ma kota&#8221;, a nie rozumie co ono znaczy.</p>
+</li>
+<li id="comment-569" >
+<cite><a href='http://taeril.jogger.pl/' rel='external nofollow' class='url'>Taeril</a><a href="#comment-569" title="" class="cmd">19.04.2008, 1:14</a></cite>
+<p>Jakie znaczenie ma względem całej strony a nie co oznacza samo w sobie. Jakoś tak chyba myślałem. Przyznaję, że nie najlepiej się wyraziłem ale tak to bywa jak się pisze w pośpiechu :)<br />
+A właśnie o to chodziło co napisałeś i spytanie czym jest byłoby odpowiedniejsze.</p>
+</li>
+<li id="comment-570" >
+<cite>aasiek<a href="#comment-570" title="" class="cmd">19.04.2008, 21:29</a></cite>
+<p>zamienił stryjek&#8230;<br />
+najpierw mówili, że tabele nie są do robienia stron tylko do prezentowania danych  w formie tabelarycznej, a teraz mówią, że listy się nadają? za jakiś czas stwierdzą, że listy są jedynie do wypunktowania :P<br />
+ja zostaję przy divach, chociażby mieli tutaj zaraz z samych &#8216;&amp;nbsp;&#8217; korzystać! o.</p>
+</li>
+<li id="comment-571" >
+<cite>witek<a href="#comment-571" title="" class="cmd">20.04.2008, 0:18</a></cite>
+<p>@aasiek<br />
+I masz racje. Nadużywanie divów przez część webmasterów jest faktem, ale o ile ktoś nie robi czegoś w style &#60;div class=&#8221; cytat różowy&#8221; /&#62; to jest ok. Z kolei stworzenie listy której jednym elementem jest nagłówek, drugim treść, trzecim sidebar, a czwartym stopka chrzani semantykę nie gorzej niż tabelki, a w praktyce jest jeszcze gorsze, bo kod nie jest ani semantyczny, ani prezentacyjny.</p>
+</li>
+<li id="comment-572" >
+<cite>WZ<a href="#comment-572" title="" class="cmd">22.04.2008, 21:51</a></cite>
+<p>@witek, nie zapędzasz się?</p>
+<p>Nie rozumiem ostatniego zdania co do tego, że kod prezentacyjny jest lepszy od tego, w którym strona jest oparta na listach. Wprawdzie sam też nie do końca się z tym zgadzam, ale argumenty obydwu stron są całkiem sensowne i np. tak jak wspomniałeś nagłówek, treść, stopka to też lista elementów/składników jednej strony. A więc oczywiście są powiązane znaczeniowo i pełnią wartość jako jedna całość. Czy nie to jest przeznaczeniem list?</p>
+<p>Pod względem semantyki dokumentu kod prezentacyjny i kod z pomieszanym znaczeniem jest równorzędnie zły, bo prezentacyjny tak samo miesza znaczenie np. przez duży text przez &#60;hx&#62;, entery przez &#60;P&#62; etc.</p>
+<p>&#8222;Nadużywanie divów&#8221; nigdy nie było, nie jest i nie będzie ok… Trzeba znaleźć kompromis.</p>
+</li>
+</ul><p><b>Od 21.08.2009 r. możliwość komentowania wpisów została wyłączona.</b></p></div>
+<div id="sb"><h3 id="ps">Krótko i zwięźle</h3>
+<span class="dsc">o mnie i o blogu</span>
+<p><img src="../../../../wp-content/themes/lm/img/foto.jpg" style="margin-right:5px;float:left" alt="Ja" />Nazywam się <strong>Łukasz Wójcik</strong>. Strona ta była swego czasu moim sieciowym poligonem. Od sierpnia 2009 r. funkcjonuje jako archiwum wpisów. Więcej o mnie znajdziesz na <a href="http://lukaszwojcik.net/">mojej stronie domowej</a>.</p>
+<h3 id="archiwum">Archiwum</h3>
+<span class="dsc">historia wpisów na blogu</span>
+<ul class="di">	<li><a href='../../../../2009/09/' title='Wrzesień 2009'>Wrzesień 2009</a></li>
+	<li><a href='../../../../2009/08/' title='Sierpień 2009'>Sierpień 2009</a></li>
+	<li><a href='../../../../2009/07/' title='Lipiec 2009'>Lipiec 2009</a></li>
+	<li><a href='../../../../2009/06/' title='Czerwiec 2009'>Czerwiec 2009</a></li>
+	<li><a href='../../../../2009/05/' title='Maj 2009'>Maj 2009</a></li>
+	<li><a href='../../../../2009/04/' title='Kwiecień 2009'>Kwiecień 2009</a></li>
+	<li><a href='../../../../2009/03/' title='Marzec 2009'>Marzec 2009</a></li>
+	<li><a href='../../../../2009/02/' title='Luty 2009'>Luty 2009</a></li>
+	<li><a href='../../../../2009/01/' title='Styczeń 2009'>Styczeń 2009</a></li>
+	<li><a href='../../../12/' title='Grudzień 2008'>Grudzień 2008</a></li>
+	<li><a href='../../../11/' title='Listopad 2008'>Listopad 2008</a></li>
+	<li><a href='../../../10/' title='Październik 2008'>Październik 2008</a></li>
+	<li><a href='../../../09/' title='Wrzesień 2008'>Wrzesień 2008</a></li>
+	<li><a href='../../../08/' title='Sierpień 2008'>Sierpień 2008</a></li>
+	<li><a href='../../../07/' title='Lipiec 2008'>Lipiec 2008</a></li>
+	<li><a href='../../../06/' title='Czerwiec 2008'>Czerwiec 2008</a></li>
+	<li><a href='../../../05/' title='Maj 2008'>Maj 2008</a></li>
+	<li><a href='../../' title='Kwiecień 2008'>Kwiecień 2008</a></li>
+	<li><a href='../../../03/' title='Marzec 2008'>Marzec 2008</a></li>
+	<li><a href='../../../02/' title='Luty 2008'>Luty 2008</a></li>
+	<li><a href='../../../01/' title='Styczeń 2008'>Styczeń 2008</a></li>
+	<li><a href='../../../../2007/12/' title='Grudzień 2007'>Grudzień 2007</a></li>
+	<li><a href='../../../../2007/11/' title='Listopad 2007'>Listopad 2007</a></li>
+	<li><a href='../../../../2007/10/' title='Październik 2007'>Październik 2007</a></li>
+	<li><a href='../../../../2007/09/' title='Wrzesień 2007'>Wrzesień 2007</a></li>
+	<li><a href='../../../../2007/08/' title='Sierpień 2007'>Sierpień 2007</a></li>
+	<li><a href='../../../../2007/07/' title='Lipiec 2007'>Lipiec 2007</a></li>
+	<li><a href='../../../../2007/06/' title='Czerwiec 2007'>Czerwiec 2007</a></li>
+	<li><a href='../../../../2007/05/' title='Maj 2007'>Maj 2007</a></li>
+	<li><a href='../../../../2007/04/' title='Kwiecień 2007'>Kwiecień 2007</a></li>
+	<li><a href='../../../../2007/03/' title='Marzec 2007'>Marzec 2007</a></li>
+	<li><a href='../../../../2007/01/' title='Styczeń 2007'>Styczeń 2007</a></li>
+</ul>
+<h3 id="kategorie">Kategorie</h3>
+<span class="dsc">co Cię interesuje?</span>
+<ul class="di">	<li class="cat-item cat-item-7"><a href="../../../../kategorie/internet/" title="Wpisy o sieci. Ciekawe strony, przydatne aplikacje, serwisy społecznościowe, trendy panujące w&nbsp;polskim i&nbsp;zagranicznym internecie.">Internet</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../../kategorie/komputery/" title="Wszystko, co dotyczy komputerów, a nie jest związane z internetem. Hardware, software, systemy operacyjne i te sprawy.">Komputery</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="../../../../kategorie/media/" title="Prasa, radio, telewizja czyli tzw. &quot;stare media&quot;. O tym, co powiedzieli w telewizji, usłyszałem w radiu albo przeczytałem w gazecie.">Media</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../../kategorie/miniblog/" title="Krótkie, maksymalnie kilkuzdaniowe wpisy o zróżnicowanej tematyce. Najczęściej o tym, co wyszperałem w sieci i uważam za interesujące.">Miniblog</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="../../../../kategorie/mobile/" title="Technologie mobilne, czyli telekomunikacja, telefonia komórkowa, urządzenia przenośne. Sposoby na schowanie internetu do kieszeni.">Mobile</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../../kategorie/osobiste/" title="Wpisy dotyczące bezpośrednio mojej osoby i tego, co robię na codzień. Skrzyżowanie internetowego pamiętnika z ponurnikiem Kłapouchego.">Osobiste</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../../kategorie/parafialne/" title="Informacje dotyczące w głównej mierze funkcjonowania niniejszej strony lub osobnych serwisów, które firmuję swoją osobą.">Parafialne</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../../kategorie/rozne/" title="Teksty najprzeróżniejszego kalibru. Najczęściej takie, które nie dają się nijak zaszufladkować lub nie są warte zakładania im osobnej kategorii.">Różne</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../../kategorie/spoleczenstwo/" title="Ludzie i zjawiska, które spostrzegam w swoim codziennym życiu. O&nbsp;tym, co mnie zadziwia, drażni lub cieszy u innych.">Społeczeństwo</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../../kategorie/wordpress/" title="Teksty związane z rozwojem najpopularniejszej na świecie platformy blogowej. Informacje i praktyczne rady dla użytkowników WordPress.">WordPress</a>
+</li>
+</ul>
+<h3 id="br">Blogroll</h3>
+<span class="dsc">lubię i polecam</span>
+<ul class="di"><li><a href="http://abstrusegoose.com/">Abstruse Goose</a></li>
+<li><a href="http://costa.kofeina.net/">CoSTa</a></li>
+<li><a href="http://icanread.tumblr.com/">I can read</a></li>
+<li><a href="http://lanooz.net/">Lanooz</a></li>
+<li><a href="http://ludwik.org/">Ludwik</a></li>
+<li><a href="http://www.ktos.info/notatki/">Notatki na piasku</a></li>
+<li><a href="http://ravsite.net/">Ravicious</a></li>
+<li><a href="http://tomasz.topa.pl/">Tomasz Topa</a></li></ul></div><div id="ft"><div id="mb">
+<h3><a href="../../../../kategorie/miniblog/">Miniblog</a></h3>
+<ul><li><h4><a href="../../../../2009/07/19/polandwantsjb/" rel="bookmark" title="Czytaj wpis: #PolandwantsJB">#PolandwantsJB</a> <a class="cnb" href="../../../../2009/07/19/polandwantsjb/#comments" title="Komentarze do wpisu">(2)</a> 19.07.2009 r.</h4>
+<p>Drogie Polki i drodzy Polacy. Nie przenoście zwyczajów rodem z <a href="http://blog.onet.pl/">blogów Onetu</a> na <a href="http://twitter.com/#search?q=%23polandwantsjb">Twittera</a>. Zamiast bezsensownie spamować międzynarodowy serwis i wyrabiać sobie i innym wątpliwą renomę, napiszcie maile do tych swoich <a href="http://www.jonasbrothers.com/">Jonas Brothers</a> albo zwróćcie się do nich <a href="http://twitter.com/jonasbrothers">bezpośrednio</a>. Dziękuję za uwagę.</p>
+</li>
+<li><h4><a href="../../../../2009/07/17/egzystencjalne-8/" rel="bookmark" title="Czytaj wpis: Egzystencjalne #8">Egzystencjalne #8</a> <a class="cnb" href="../../../../2009/07/17/egzystencjalne-8/#comments" title="Komentarze do wpisu">(3)</a> 17.07.2009 r.</h4>
+<p>W całej tej wojnie o publiczne media uwiera mnie jeden fakt. W okresie wakacyjnym większość telewizji (prywatne też, ale teraz nie o nich mowa) serwuje powtórki wszystkiego, co im się nawinie pod rękę i jeszcze się nadaje do odtworzenia. Ciekawy jestem dlaczego zamiast płacić abonament, nie można wysłać im kserokopii dowodów wpłat z zeszłego roku.</p>
+</li>
+<li><h4><a href="../../../../2009/07/12/nowy-hosting/" rel="bookmark" title="Czytaj wpis: Nowy hosting">Nowy hosting</a> <a class="cnb" href="../../../../2009/07/12/nowy-hosting/#comments" title="Komentarze do wpisu">(5)</a> 12.07.2009 r.</h4>
+<p>Od kilkudziesięciu godzin blog jest serwowany z nowego miejsca &#8211; <a href="http://linuxpl.com/">Linuxpl.com</a>. Przerwa w działaniu byłaby krótsza gdyby nie <a href="http://ovh.pl/">OVH</a> i Firefox, które wspólnie odmówiły mi <em>szybkiego</em> odświeżenia i rozpropagowania nowych DNSów. Jednak wszystko wskazuje na to, że operacja się udała, a pacjent (czyt. blog) działa nieco szybciej.</p>
+</li>
+</ul>
+</div><div id="zyg">
+<h3><a href="../../../../kategorie/zygfryd/">Zygfryd</a></h3>
+<a href="../../../../2009/09/13/82/" rel="bookmark" title="Obejrzyj strip"><img src="../../../../wp-content/uploads/zygfryd82-100x100.jpg" alt="Zygfryd #82" width="120" height="120" /></a>
+<p><a href="../../../../kategorie/zygfryd/">Więcej &raquo;</a></p></div><div id="cpr"><div class="lft">&copy; <a href="http://lukaszwojcik.net/">Łukasz Wójcik</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5/pl/" title="Creative Commons BY-NC 2.5 PL">Pewne prawa zastrzeżone</a>.</div><div class="rgt">Zasilane przez <a href="http://wordpress.org/" title="Semantyczna platforma blogowa">WordPress</a>. Design: <a href="http://hawro.net/">Konrad Hawro</a>.</div><br style="clear:both;" /></div></div></div></div><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-3378116-14"); pageTracker._trackPageview(); } catch(err) {}</script></body>
+</html>

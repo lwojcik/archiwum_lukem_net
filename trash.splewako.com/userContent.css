@@ -1,0 +1,3 @@
+@-moz-document url-prefix(view-source:) {
+  body#viewsource *|*:-moz-any-link { text-decoration: none; }
+}
