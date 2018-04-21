@@ -1,1 +1,0 @@
-<meta http-equiv="refresh" content="0; url=http://www.escapemagazine.pl/369684-wlasny-szablon-wordpress" />
