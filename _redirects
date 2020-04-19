@@ -2,4 +2,5 @@
 https://www.archiwum.lukem.net/* https://archiwum.lukem.net/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
+https://archiwum-lukem-net.netlify.app/* https://archiwum.lukem.net/:splat 301!
 https://archiwum-lukem-net.netlify.com/* https://archiwum.lukem.net/:splat 301!
